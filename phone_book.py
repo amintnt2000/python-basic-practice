@@ -21,7 +21,7 @@ def add_contacts(contacts):
     phone = int(input("Phone number: "))
     if name in contacts:
         change = input("contact already exist do you want to chane the number (y/n): ").lower()
-        if change == "n" :
+        if change != "y" :
             print("Cancelled")
             return
     contacts[name] = phone
