@@ -44,21 +44,6 @@ This branch (`ML-project`) of [python-basic-practice](https://github.com/amintnt
 └── README.md
 ```
 
-## Getting Started
-
-```bash
-# Clone only this branch
-git clone -b ML-project https://github.com/amintnt2000/python-basic-practice.git
-cd python-basic-practice
-
-# Create and activate a virtual environment
-python -m venv venv
-venv\Scripts\activate        # Windows
-# source venv/bin/activate   # Linux / macOS
-
-# Install the main libraries
-pip install numpy pandas matplotlib scikit-learn jupyter
-```
 
 Then open any project folder and run its script or notebook.
 
